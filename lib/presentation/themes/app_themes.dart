@@ -7,6 +7,24 @@ class AppThemes {
   static const Color red = Color(0xffBF3838);
   static const Color cardColor = Color(0xffC9A836);
   static const Color grey = Color(0xff898181);
+  static const List<Shadow> textShadow = [
+    Shadow(
+        // bottomLeft
+        offset: Offset(-1.5, -1.5),
+        color: Colors.white),
+    Shadow(
+        // bottomRight
+        offset: Offset(1.5, -1.5),
+        color: Colors.white),
+    Shadow(
+        // topRight
+        offset: Offset(1.5, 1.5),
+        color: Colors.white),
+    Shadow(
+        // topLeft
+        offset: Offset(-1.5, 1.5),
+        color: Colors.white),
+  ];
 
   static final TextTheme _textTheme = TextTheme(
     headline6: GoogleFonts.rajdhani(
@@ -30,7 +48,7 @@ class AppThemes {
     hintColor: Colors.white,
     colorScheme: ThemeData().colorScheme.copyWith(secondary: red),
     iconTheme: const IconThemeData(
-      color: primary,
+      color: Colors.white,
       size: 26,
     ),
   );

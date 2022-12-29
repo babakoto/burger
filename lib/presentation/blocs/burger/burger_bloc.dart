@@ -25,14 +25,12 @@ class BurgerBloc extends Bloc<BurgerEvent, BurgerState> {
 
     result.on(
       (failure) {
-        print("FAILURE $failure");
         emit(state.copyWith(
           failure: failure,
           burgerStatus: BurgerStatus.failure,
         ));
       },
       (success) {
-        print("Success $success");
         emit(state.copyWith(
           failure: null,
           burgerStatus: BurgerStatus.success,

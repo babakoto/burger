@@ -28,14 +28,14 @@ class Order extends Equatable {
   Order copyWith({
     String? id,
     DateTime? dateTime,
-    Burger? burgers,
+    Burger? burger,
     int? quantity,
     double? total,
   }) {
     return Order(
       id: id ?? this.id,
       dateTime: dateTime ?? this.dateTime,
-      burger: burgers ?? this.burger,
+      burger: burger ?? this.burger,
       quantity: quantity ?? this.quantity,
       total: total ?? this.total,
     );

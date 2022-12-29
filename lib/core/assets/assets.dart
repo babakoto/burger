@@ -19,6 +19,4 @@ class Assets {
   static const String jsonLoading = 'assets/json/loading.json';
   static const String jsonServerError = 'assets/json/server-error.json';
   static const String jsonStar = 'assets/json/star.json';
-  static const String translationsEn = 'assets/translations/en.json';
-  static const String translationsFr = 'assets/translations/fr.json';
 }

@@ -116,12 +116,12 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
               ),
               Align(
                   alignment: Alignment.centerLeft,
-                  child: Text("Toping", style: textTheme.headline6)),
+                  child: Text("Sauces", style: textTheme.headline6)),
               Expanded(
                 flex: 2,
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: topings.length,
+                    itemCount: sauces.length,
                     itemBuilder: (context, index) {
                       return Column(
                         children: [
@@ -136,8 +136,8 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                       color: const Color(0xff3F3F3F),
                                       borderRadius: BorderRadius.circular(20),
                                       image: DecorationImage(
-                                          image: AssetImage(
-                                              topings[index].image))),
+                                          image:
+                                              AssetImage(sauces[index].image))),
                                   child: InkWell(
                                     borderRadius: BorderRadius.circular(12),
                                     splashColor: AppThemes.red,
@@ -158,7 +158,7 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                           ),
                           Expanded(
                             child: Text(
-                              topings[index].name,
+                              sauces[index].name,
                               style: textTheme.headline6,
                             ),
                           ),
@@ -185,27 +185,11 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                                   textTheme.headline1?.copyWith(fontSize: 25),
                               tags: {
                                 "price": StyledTextTag(
-                                    style: textTheme.headline1?.copyWith(
-                                  color: AppThemes.red,
-                                  shadows: const [
-                                    Shadow(
-                                        // bottomLeft
-                                        offset: Offset(-1.5, -1.5),
-                                        color: Colors.white),
-                                    Shadow(
-                                        // bottomRight
-                                        offset: Offset(1.5, -1.5),
-                                        color: Colors.white),
-                                    Shadow(
-                                        // topRight
-                                        offset: Offset(1.5, 1.5),
-                                        color: Colors.white),
-                                    Shadow(
-                                        // topLeft
-                                        offset: Offset(-1.5, 1.5),
-                                        color: Colors.white),
-                                  ],
-                                ))
+                                  style: textTheme.headline1?.copyWith(
+                                    color: AppThemes.red,
+                                    shadows: AppThemes.textShadow,
+                                  ),
+                                )
                               },
                             ),
                           ),
@@ -244,21 +228,23 @@ class _DetailPageState extends State<DetailPage> with TickerProviderStateMixin {
                 ),
               ),
               Expanded(
-                  flex: 2,
-                  child: BlocBuilder<BurgerBloc, BurgerState>(
-                      builder: (context, state) {
+                flex: 2,
+                child: BlocBuilder<BurgerBloc, BurgerState>(
+                  builder: (context, state) {
                     return Align(
                       alignment: Alignment.topLeft,
                       child: SingleChildScrollView(
                         child: Text(
-                          "${state.selected?.description}\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                          "${state.selected?.description}\n $loremIpsum",
                           style: textTheme.bodyText1
-                              ?.copyWith(color: Color(0xff898181)),
+                              ?.copyWith(color: const Color(0xff898181)),
                           textAlign: TextAlign.start,
                         ),
                       ),
                     );
-                  })),
+                  },
+                ),
+              ),
               Expanded(
                 child: SizedBox(
                   height: 50,

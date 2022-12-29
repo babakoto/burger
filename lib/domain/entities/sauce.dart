@@ -1,11 +1,11 @@
 import 'package:equatable/equatable.dart';
 
-class Toping extends Equatable {
+class Sauce extends Equatable {
   final String id;
   final String name;
   final String image;
 
-  const Toping({
+  const Sauce({
     required this.id,
     required this.name,
     required this.image,
