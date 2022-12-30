@@ -21,4 +21,4 @@ export 'package:flutter_slidable/flutter_slidable.dart';
 export 'package:lottie/lottie.dart';
 export 'package:pull_to_refresh/pull_to_refresh.dart';
 export 'package:qr_flutter/qr_flutter.dart';
-export 'package:styled_text/styled_textt';
+export 'package:styled_text/styled_text.dart';
