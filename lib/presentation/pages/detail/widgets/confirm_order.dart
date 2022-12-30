@@ -1,5 +1,4 @@
-import 'package:burger/presentation/themes/app_themes.dart';
-import 'package:flutter/material.dart';
+part of "../detail_page.dart";
 
 class ConfirmOrder extends StatefulWidget {
   final VoidCallback onPressed;

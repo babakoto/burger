@@ -1,6 +1,4 @@
-import 'package:badges/badges.dart';
-import 'package:burger/presentation/themes/app_themes.dart';
-import 'package:flutter/material.dart';
+part of "../home_page.dart";
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String photo;

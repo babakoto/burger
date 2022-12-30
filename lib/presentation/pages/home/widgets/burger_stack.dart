@@ -1,9 +1,4 @@
-import 'dart:math';
-
-import 'package:burger/core/assets/assets.dart';
-import 'package:burger/domain/entities/burger.dart';
-import 'package:burger/presentation/themes/app_themes.dart';
-import 'package:flutter/material.dart';
+part of "../home_page.dart";
 
 class BurgerStack extends StatelessWidget {
   final Burger burger;

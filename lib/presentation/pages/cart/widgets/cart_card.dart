@@ -1,12 +1,4 @@
-import 'package:burger/core/assets/assets.dart';
-import 'package:burger/core/extensions/double_extension.dart';
-import 'package:burger/domain/entities/order.dart';
-import 'package:burger/presentation/blocs/user/user_bloc.dart';
-import 'package:burger/presentation/components/quantity_counter.dart';
-import 'package:burger/presentation/themes/app_themes.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_slidable/flutter_slidable.dart';
+part of '../cart_page.dart';
 
 class CartCard extends StatelessWidget {
   final VoidCallback onDismissed;

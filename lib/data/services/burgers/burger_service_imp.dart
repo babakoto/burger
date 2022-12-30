@@ -1,10 +1,5 @@
-import 'package:burger/data/services/burgers/burger_service.dart';
-import 'package:burger/data/services/networks/network_service.dart';
-import 'package:burger/domain/entities/burger.dart';
-import 'package:dio/dio.dart';
-import 'package:fos/errors/network_exception.dart';
-import 'package:fos/errors/server_exception.dart';
-import 'package:fos/errors/unauthorized_exception.dart';
+import 'package:burger/data/exports.dart';
+import 'package:burger/domain/exports.dart';
 
 class BurgerServiceImp extends BurgerService {
   final Dio _dio;

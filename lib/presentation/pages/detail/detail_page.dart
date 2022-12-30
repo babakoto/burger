@@ -1,18 +1,7 @@
-import 'dart:math';
-
-import 'package:burger/core/assets/assets.dart';
-import 'package:burger/core/constants/fake_data.dart';
-import 'package:burger/core/extensions/double_extension.dart';
-import 'package:burger/presentation/blocs/burger/burger_bloc.dart';
-import 'package:burger/presentation/blocs/order/order_bloc.dart';
-import 'package:burger/presentation/blocs/user/user_bloc.dart';
-import 'package:burger/presentation/components/quantity_counter.dart';
-import 'package:burger/presentation/cubits/navigation_cubit.dart';
-import 'package:burger/presentation/pages/detail/widgets/confirm_order.dart';
-import 'package:burger/presentation/themes/app_themes.dart';
+import 'package:burger/presentation/exports.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:styled_text/styled_text.dart';
+
+part './widgets/confirm_order.dart';
 
 class DetailPage extends StatefulWidget {
   static const path = "/detail";

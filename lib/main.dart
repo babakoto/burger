@@ -1,10 +1,6 @@
-import 'package:burger/core/dependencies/dependencies.dart';
-import 'package:burger/core/environment/environment_service.dart';
-import 'package:burger/domain/repositories/cart_repository.dart';
-import 'package:burger/domain/usecases/find_burger_use_case.dart';
-import 'package:burger/presentation/blocs/burger/burger_bloc.dart';
-import 'package:burger/presentation/blocs/order/order_bloc.dart';
-import 'package:burger/presentation/blocs/user/user_bloc.dart';
+import 'package:burger/core/exports.dart';
+import 'package:burger/domain/exports.dart';
+import 'package:burger/presentation/blocs/exports.dart';
 import 'package:burger/presentation/cubits/navigation_cubit.dart';
 import 'package:burger/presentation/routes/app_routes.dart';
 import 'package:burger/presentation/themes/app_themes.dart';

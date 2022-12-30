@@ -1,9 +1,4 @@
-import 'package:burger/core/dependencies/dependencies.dart';
-import 'package:burger/data/services/burgers/burger_service.dart';
-import 'package:burger/data/services/burgers/burger_service_imp.dart';
-import 'package:burger/data/services/networks/network_service.dart';
-import 'package:burger/data/services/networks/network_service_imp.dart';
-import 'package:dio/dio.dart';
+part of 'dependencies.dart';
 
 class ServicesDependencies {
   static register() {

@@ -1,15 +1,9 @@
-import 'package:burger/core/assets/assets.dart';
-import 'package:burger/presentation/blocs/burger/burger_bloc.dart';
-import 'package:burger/presentation/blocs/order/order_bloc.dart';
-import 'package:burger/presentation/components/errors/server_error.dart';
-import 'package:burger/presentation/pages/detail/detail_page.dart';
-import 'package:burger/presentation/pages/home/widgets/burger_stack.dart';
-import 'package:burger/presentation/pages/home/widgets/custom_app_bar.dart';
-import 'package:burger/presentation/themes/app_themes.dart';
+import 'package:badges/badges.dart';
+import 'package:burger/presentation/exports.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lottie/lottie.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
+
+part './widgets/burger_stack.dart';
+part './widgets/custom_app_bar.dart';
 
 class HomePage extends StatefulWidget {
   static const path = "/";

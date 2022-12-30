@@ -1,5 +1,4 @@
-import 'package:burger/data/services/networks/network_service.dart';
-import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
+import 'package:burger/data/exports.dart';
 
 class NetworkServiceImp implements NetworkService {
   final InternetConnectionCheckerPlus _internetConnectionCheckerPlus;

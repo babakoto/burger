@@ -1,10 +1,7 @@
-import 'package:burger/core/extensions/double_extension.dart';
-import 'package:burger/domain/entities/order.dart';
-import 'package:burger/presentation/blocs/user/user_bloc.dart';
-import 'package:burger/presentation/pages/cart/widgets/cart_card.dart';
+import 'package:burger/presentation/exports.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:qr_flutter/qr_flutter.dart';
+
+part './widgets/cart_card.dart';
 
 class CartPage extends StatefulWidget {
   const CartPage({Key? key}) : super(key: key);

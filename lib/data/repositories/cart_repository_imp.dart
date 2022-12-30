@@ -1,5 +1,4 @@
-import 'package:burger/domain/entities/order.dart';
-import 'package:burger/domain/repositories/cart_repository.dart';
+import 'package:burger/domain/exports.dart';
 
 List<Order> _fakeStorage = [];
 
