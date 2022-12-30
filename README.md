@@ -1,16 +1,33 @@
-# burger
+**Running application**
 
-A new Flutter project.
 
-## Getting Started
+**FVM :**
+Install fvm [ici](https://fvm.app/docs/getting_started/installation)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+    fvm config
+	fvm use 3.3.9
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Architecture : Clean architecture
+<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/architecture.png" width="400" height="650"/>
+
+
+
+## State manage: BloC
+
+
+## Unit test
+<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/unit_test.png" width="400" height="650"/>
+
+
+## ERROR
+<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/error.png" width="400" height="650"/>
+
+
+## Home screen
+<img src="https://github.com/babakoto/burger/blob/main/screens/home.png" width="400" height="650" />
+
+## Detail screen
+
+<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/detail.png" width="400" height="650"/>
