@@ -10,7 +10,7 @@ Install fvm [ici](https://fvm.app/docs/getting_started/installation)
 
 
 ## Architecture : Clean architecture
-<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/architecture.png" width="400" height="650"/>
+<img src="https://github.com/babakoto/burger/blob/main/screens/architecture.png" width="400" height="650"/>
 
 
 
@@ -18,11 +18,11 @@ Install fvm [ici](https://fvm.app/docs/getting_started/installation)
 
 
 ## Unit test
-<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/unit_test.png" width="400" height="650"/>
+<img src="https://github.com/babakoto/burger/blob/main/screens/unit_test.png" width="400" height="650"/>
 
 
 ## ERROR
-<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/error.png" width="400" height="650"/>
+<img src="https://github.com/babakoto/burger/blob/main/screens/error.png" width="400" height="650"/>
 
 
 ## Home screen
@@ -30,4 +30,4 @@ Install fvm [ici](https://fvm.app/docs/getting_started/installation)
 
 ## Detail screen
 
-<img src="https://github.com/babakoto/flutter_contact_book/blob/main/screens/detail.png" width="400" height="650"/>
+<img src="https://github.com/babakoto/burger/blob/main/screens/detail.png" width="400" height="650"/>
